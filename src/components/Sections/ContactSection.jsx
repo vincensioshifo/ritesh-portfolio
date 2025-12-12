@@ -82,7 +82,7 @@ const ContactSection = () => {
     <section
       id="contact"
       ref={sectionRef}
-      className={`py-24 px-6 ${
+      className={`py-16 px-4 sm:px-6 md:py-20 md:px-8 ${
         isDarkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
       } relative overflow-hidden`}
     >
@@ -101,7 +101,7 @@ const ContactSection = () => {
         />
       </motion.div>
 
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-5xl lg:max-w-6xl mx-auto relative z-10">
         {/* Section Header */}
         <motion.div
           initial="hidden"
@@ -136,27 +136,28 @@ const ContactSection = () => {
           </motion.p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-start">
           {/* Contact Form */}
           <motion.div
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             variants={containerVariants}
+            className=""
           >
             <motion.div
               variants={itemVariants}
-              className={`p-8 rounded-2xl border  ${
+              className={`p-6 sm:p-8 rounded-2xl border ${
                 isDarkMode
                   ? "bg-gray-800/50 border-gray-700 backdrop-blur-sm"
                   : "bg-gray-50/80 border-gray-200 backdrop-blur-sm"
               }`}
             >
-              <h3 className="text-2xl font-medium mb-8"> Send me a Message </h3>
+              <h3 className="text-2xl sm:text-2xl sm:mb-8 font-medium mb-6"> Send me a Message </h3>
 
               {/* --- IMPORTANT: use a real form with ref and onSubmit --- */}
               <form ref={formRef} onSubmit={handleSubmit}>
                 <div className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                     <TextInput
                       isDarkMode={isDarkMode}
                       value={formData.name}
@@ -186,7 +187,7 @@ const ContactSection = () => {
                     handleInputChange={(text) =>
                       handleInputChange("message", text)
                     }
-                    className={`w-120 px-4 pt-6 pb-2 rounded-xl border transition-all duration-200 outline-none resize-y min-h-20 max-h-100 text-lg ${
+                    className={`w-full px-4 pt-6 pb-2 rounded-xl border transition-all duration-200 outline-none resize-y min-h-20 md:min-h-24 max-h-100 md:max-h-80 text-lg ${
                       isDarkMode
                         ? "bg-gray-800/50 text-white border-gray-700 focus:border-blue-500 focus:bg-gray-800/70"
                         : "bg-white/80 text-gray-900 border-gray-300 focus:border-blue-500 focus:bg-white"
@@ -265,7 +266,7 @@ const ContactSection = () => {
                     >
                       <info.icon size={20} className="text-blue-500" />
                     </div>
-                    <div>
+                    <div className="min-w-0">
                       <div
                         className={`text-sm ${
                           isDarkMode ? "text-gray-500" : "text-gray-600"
@@ -273,7 +274,7 @@ const ContactSection = () => {
                       >
                         {info.label}
                       </div>
-                      <div className="font-medium">{info.value}</div>
+                      <div className="font-medium wrap-break-word whitespace-normal">{info.value}</div>
                     </div>
                   </motion.div>
                 ))}
@@ -283,7 +284,7 @@ const ContactSection = () => {
             {/* Social Links */}
             <motion.div variants={itemVariants} className="">
               <h3 className=" text-xl font-medium mb-6 mt-6 ">Follow Me</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {SOCIAL_LINKS.map((social) => (
                   <motion.a
                     key={social.name}
